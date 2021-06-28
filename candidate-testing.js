@@ -10,10 +10,10 @@ let candidateName = "" ;
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
 let question = "Who was the first American woman in space?";
 let correctAnswer = "Sally Ride";
-let candidateAnswer = "";
-let questions;
-let correctAnswers;
-let candidateAnswers;
+let candidateAnswer = answer.input;
+let questions ["Who was the first American woman in space?", "True or false: 5 kilometer == 5000 meters?", "(5+3)/2*10 = ?", "Given the array [8, 'Orbit', 'Trajectory', 45], what entry is at index 2?", "What is the minimum crew size for the ISS?" ];;
+let correctAnswers = ["Sally Ride", "true", "40", "Trajectory", "3"];
+let candidateAnswers= question.input
 
 
 function askForName() {
@@ -37,7 +37,11 @@ function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
 
- let ${answer[0]}/n, ${answer[1]}/n, ${answer[2]}/n, ${answer[3]}/n,${answer[4]}/n,`;
+ let ${answer[0]}/n, ${answer[1]}/n, ${answer[2]}/n, ${answer[3]}/n,${answer[4]}/n ; 
+
+
+
+ let c
 // Hi John, Doe
 
   let grade;
@@ -56,6 +60,15 @@ function runProgram() {
   askQuestion();
   gradeQuiz(this.candidateAnswers);
 }
+
+
+if (correctanswers === candidateAnswers)
+
+
+if (candidatesScore === 100%)
+console.log("You got 100%. Great job!")
+
+
 
 // Don't write any code below this line //
 // And don't change these or your program will not run as expected //
